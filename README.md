@@ -9,6 +9,7 @@
 <li><a href="#ll">Limitations and Learning Curve</a></li>
 </ul>
 
+<a id='intro'></a>
 #### Introduction
 This repository contains the project files both html and ipynb, the dataset in csv and the readme in md. 
 The Packages used on this project include 
@@ -17,13 +18,13 @@ The Packages used on this project include
 * Matplotlib Version 3.5.2 - For Visualization
 * Seaborn Version '0.11.2' - For Visualization 
 
-
-#### Dataset
+<a id='overview'></a>
+#### Project Overview
 
 > This data set contains 113,937 loans with 81 variables on each loan, including loan amount, borrower rate (or interest rate), current loan status, term, borrower income, and many others. The dataset was later trimmed to 12 columns removing columns that are surplus to our investigation and deleting rows with Null Values.
 Special Focus was put on some variables based on the assumption that the **Rates**, **Principal** and **Term** are important in any loan Situation.
 
-
+<a id='conclusions'></a>
 #### Summary of Findings
 
 ##### Univariate Exploration
@@ -56,7 +57,7 @@ I can assume that lower BorrowerRate is a factor of ***Positive Loan Status***. 
 > The investigation showed that LoanStatus, Current and Completed that are elements in my assumed **Positive Loan Status** are the most occuring and also have the lowest Rates. BorrowerRate and BorrowerAPR have a positive correlation
 Across all terms the Frequency and Order of the Loan Status have always been consistent with only the exception of 12 months loans, having more completed than current.
 
-
+<a id='ll'></a>
 #### Limitations & Learning Curve
 
 * Supplemented statistics with visualizations to build understanding of data.
